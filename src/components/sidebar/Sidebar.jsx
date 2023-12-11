@@ -72,37 +72,16 @@ const Sidebar = () => {
             <i className="fa-solid fa-eye"></i> Other Pages
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="/all-orders">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Orders</span>
             </a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              data-toggle="collapse"
-              href="#sliders"
-              aria-expanded="false"
-              aria-controls="ui-basic"
-            >
-              <i class="icon-layout menu-icon"></i>
+            <a class="nav-link" href="/home-sliders">
+              <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Home Sliders</span>
-              <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="sliders">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    Add Sliders
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    All Sliders
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/">
